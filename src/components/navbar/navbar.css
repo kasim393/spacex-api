@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+
+.right-navbar {
+  display: flex;
+  gap: 20px;
+  margin-right: 50px;
+}
+.right-navbar p {
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+.right-navbar p:hover {
+  border-bottom: 1px solid white;
+}
+
+@media only screen and (max-width: 400px) {
+  .right-navbar {
+    margin-right: 0;
+  }
+}
